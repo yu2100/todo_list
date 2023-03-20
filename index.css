@@ -29,7 +29,7 @@ header h1{
     color: var(--primarytext);
     margin-bottom: 1.5rem;
 }
-#task-form{
+#todo-form{
     display: flex;
 }
 
@@ -40,7 +40,7 @@ input,button{
     background: none;
 }
 
-#task-input{
+#todo-input{
     flex: 1 1 0%;
     background-color: var(--bg);
     padding: 1rem;
@@ -50,7 +50,7 @@ input,button{
     color: var(--primarytext);
     font-size: 1.25rem;
 }
-#task-input::placeholder{
+#todo-input::placeholder{
     color: var(--primarytext);
 }
 #task-submit{
