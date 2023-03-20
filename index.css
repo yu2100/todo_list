@@ -1,9 +1,9 @@
 
 :root{
-    --lightgreen : #00c78a;
-    --orange: #ff9c27;
-    --bg:#162719;
-    --primarytext: #f2e8cf;
+    --lightgreen : #c7005d;
+    --orange: #3527ff;
+    --bg:#620816;
+    --primarytext: #9b7a27;
 }
 
 *{
@@ -15,7 +15,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: #f2e8cf;
+    background: purple;
 }
 header{
     padding: 2rem 1rem;
@@ -138,9 +138,6 @@ main{
 }
 .task .actions .Delete{
     color: crimson;
-}
-.task .actions .Completed{
-    color: var(--orange)
 }
 
 .strike {
